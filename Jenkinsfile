@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('DAST') {
+            steps {
+                echo 'DASTing.... ahre'
+            }
+        }
     }
 }
